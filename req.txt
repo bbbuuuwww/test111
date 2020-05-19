@@ -1,0 +1,9 @@
+Django==2.0
+et-xmlfile==1.0.1
+jdcal==1.4.1
+mysqlclient==1.4.6
+openpyxl==3.0.3
+protobuf==3.11.4
+PyMySQL==0.9.3
+pytz==2020.1
+six==1.14.0
