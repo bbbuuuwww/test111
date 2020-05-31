@@ -15,10 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include, url
 from myxitiya import views
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("test/", views.as_views())
+    url('xty/', include("myxitiya.urls"))
+    #path("add/", views.add),
+    #path("find/", views.find)
 ]
