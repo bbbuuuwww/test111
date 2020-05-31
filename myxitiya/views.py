@@ -35,9 +35,14 @@ def index(request):
     #return HttpResponse(temp.render())
     return render(request, "myxitiya/index.html", context=context)
 
-def find(request):
-    print()
-    item = Item.objects.get(id=random.randint(1020, 1400))
-
-    print(item.get_dict())
-    return HttpResponse("htt2")
+def find(request, id):
+    print(id)
+    item = Item.objects.filter(id=id).first()
+    if item:
+        context = item.get_dict()
+    else:
+        context = {}
+    print(context)
+    spider = Spider.objects.get(id=id)
+    print(spider.spider_item.item_set)
+    return render(request, "myxitiya/find.html", context=context)

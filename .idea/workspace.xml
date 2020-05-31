@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b6f116a-6e13-4dee-b8ca-8536715ee9cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myxitiya/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xitiya.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xitiya.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myxitiya/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myxitiya/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myxitiya/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myxitiya/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myxitiya/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myxitiya/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myxitiya/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myxitiya/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myxitiya/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myxitiya/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/req.txt" beforeDir="false" afterPath="$PROJECT_DIR$/req.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xitiya/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/xitiya/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xitiya/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/xitiya/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +100,7 @@
       <workItem from="1590829579551" duration="1794000" />
       <workItem from="1590831397388" duration="1441000" />
       <workItem from="1590833216795" duration="1803000" />
+      <workItem from="1590903209270" duration="4888000" />
     </task>
     <servers />
   </component>
@@ -139,10 +132,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="336" y="55" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1590301869451" />
-    <state x="559" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1590833218105">
+    <state x="559" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1590903210918">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="559" y="294" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1590833218105" />
+    <state x="559" y="294" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1590903210918" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/test111$views.coverage" NAME="views Coverage Results" MODIFIED="1590817064388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myxitiya" />

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ name }}</title>
+</head>
+<body>
+{% if type %}
+<p> {{ id }} </p>
+<p> {{ type }} </p>
+<p> <a href="{{ url }}">视频地址</a> </p>
+<p>{{ create_time }}</p>
+<p>{{ update_time }}</p>
+{% else %}
+<p> null </p>
+<p> null </p>
+<p> null </p>
+<p> null </p>
+<p> null </p>
+{% endif %}
+</body>
+</html>
