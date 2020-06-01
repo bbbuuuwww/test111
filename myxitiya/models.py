@@ -16,7 +16,8 @@ class Item(models.Model):
                 "create_time":self.create_time,
                 "update_time":self.update_time
                 }
-    class Meta:
+    class Meta: # 元选类
+        # db_table = “Item” # 生成数据库后的数据库名字
         unique_together = ["url", "type"] # 联合唯一索引
         index_together = ["type", "update_time"] # 联合索引
 

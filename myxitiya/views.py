@@ -43,6 +43,8 @@ def find(request, id):
     else:
         context = {}
     print(context)
-    spider = Spider.objects.get(id=id)
-    print(spider.spider_item.item_set)
+    spider = Spider.objects.get_or_create(source="https://www.mzitu.com/{}".format(id),
+                                          spider_item=item,
+                                          create_time=datetime.datetime.now())
+    context.update({"url": spider[0].source})
     return render(request, "myxitiya/find.html", context=context)
